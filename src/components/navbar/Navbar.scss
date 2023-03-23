@@ -1,0 +1,54 @@
+.Navbar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 55px;
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &__items {
+            color: #FFFFFF;
+            margin: 0px 40px;
+            cursor: pointer;
+        }
+
+        &__logo {
+            cursor: pointer;
+        }
+    }
+
+    &__sign {
+        display: flex;
+        flex-direction: row;
+        color: #FFFFFF;
+        align-items: center;
+
+        &__signUp {
+            background-color: #FF4820;
+            border-radius: 5px;
+            padding: 14px 40px;
+            border: none;
+            outline: none;
+            color: #FFFFFF;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            align-items: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        &__signIn {
+            margin-right: 26px;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 55px;
+}
+.Navbar__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Navbar__links__items {
+  color: #FFFFFF;
+  margin: 0px 40px;
+  cursor: pointer;
+}
+.Navbar__links__logo {
+  cursor: pointer;
+}
+.Navbar__sign {
+  display: flex;
+  flex-direction: row;
+  color: #FFFFFF;
+  align-items: center;
+}
+.Navbar__sign__signUp {
+  background-color: #FF4820;
+  border-radius: 5px;
+  padding: 14px 40px;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Navbar__sign__signIn {
+  margin-right: 26px;
+}/*# sourceMappingURL=Navbar.css.map */
