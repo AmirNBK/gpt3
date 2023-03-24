@@ -2,13 +2,13 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
     align-items: center;
     font-size: 16px;
-    margin-top: 55px;
+    padding: 2rem 4rem;
 
     &__links {
         display: flex;
@@ -17,8 +17,12 @@
 
         &__items {
             color: #FFFFFF;
-            margin: 0px 40px;
+            margin: 0px 35px;
             cursor: pointer;
+
+            @media screen and (max-width : 1150px) {
+                display: none;
+            }
         }
 
         &__logo {
@@ -31,11 +35,12 @@
         flex-direction: row;
         color: #FFFFFF;
         align-items: center;
+        position: relative;
 
         &__signUp {
             background-color: #FF4820;
             border-radius: 5px;
-            padding: 14px 40px;
+            padding: 12px 40px;
             border: none;
             outline: none;
             color: #FFFFFF;
@@ -45,10 +50,59 @@
             align-items: center;
             font-size: 16px;
             cursor: pointer;
+
+            @media screen and (max-width : 700px) {
+                display: none;
+            }
         }
 
         &__signIn {
             margin-right: 26px;
+
+            @media screen and (max-width : 700px) {
+                display: none;
+            }
+        }
+
+        &__menu {
+            display: none;
+            margin-left: 1rem;
+
+            @media screen and (max-width : 1150px) {
+                display: block;
+            }
+
+            &__container {
+                position: absolute;
+                background: #00254E;
+                right: 0;
+                top: 45px;
+                text-align: right;
+                padding: 5px 30px;
+                white-space: nowrap;
+
+                @media screen and (max-width : 700px) {
+                    padding: 5px 20px 5px 80px;
+                }
+
+                &__items {
+                    margin: 15px 0px;
+
+                    @media screen and (max-width : 700px) {
+                        &:last-child {
+                            background-color: #FF4820;
+                            border-radius: 5px;
+                            padding: 10px 15px;
+                            color: #FFFFFF;
+                            font-family: 'Manrope';
+                            font-style: normal;
+                            font-weight: 500;
+                            text-align: center;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
         }
     }
 }
