@@ -1,1 +1,9 @@
-/*# sourceMappingURL=Brand.css.map */
+.Brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Brand__item {
+  margin: 1rem;
+}/*# sourceMappingURL=Brand.css.map */

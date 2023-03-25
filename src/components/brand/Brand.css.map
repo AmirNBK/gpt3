@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Brand.css"}
+{"version":3,"sources":["Brand.scss","Brand.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,eAAA;ACCJ;ADCI;EACI,YAAA;ACCR","file":"Brand.css"}
