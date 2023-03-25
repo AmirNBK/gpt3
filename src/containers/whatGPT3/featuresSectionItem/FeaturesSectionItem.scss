@@ -1,41 +1,43 @@
 .FeaturesSectionItem {
+    display: flex;
+    flex-direction: column;
 
-    &__title {
-
-
-        &__text {
-            font-family: 'Manrope';
-            font-style: normal;
-            font-weight: 800;
-            font-size: 24px;
-            line-height: 75px;
-            letter-spacing: -0.04em;
-            color: #FFFFFF;
-
-            @media screen and (max-width : 550px) {
-                font-size: 20px;
-                line-height: 40px;
-            }
-        }
-        
-
-        &__line {
-            background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
-            width: 38px;
-            height: 3px;
-        }
+    &__line {
+        background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+        width: 38px;
+        height: 3px;
     }
 
-    &__description {
-        font-family: 'Manrope';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 30px;
-        color: #81AFDD;
+    &__content {
+        &__title {
+            &__text {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 75px;
+                letter-spacing: -0.04em;
+                color: #FFFFFF;
 
-        @media screen and (max-width : 550px) {
-            font-size: 14px;
+                @media screen and (max-width : 550px) {
+                    font-size: 20px;
+                    line-height: 40px;
+                }
+            }
+
+        }
+
+        &__description {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            color: #81AFDD;
+
+            @media screen and (max-width : 550px) {
+                font-size: 14px;
+            }
         }
     }
 }

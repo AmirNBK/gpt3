@@ -1,0 +1,87 @@
+.Feature {
+
+    display: flex;
+    flex-direction: row;
+    padding: 0 4rem;
+    margin: 6rem 0;
+
+    &__leftSection {
+        margin-right: 3rem;
+        flex: 1;
+
+        &__description {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 34px;
+            line-height: 45px;
+            background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+        &__earlyAccess {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            color: #FF8A71;
+            margin-top: 30px;
+        }
+    }
+
+    &__rightSection {
+
+        flex: 1.5;
+
+
+        &__container {
+            display: flex;
+            flex-direction: row;
+
+            &:not(:first-child) {
+                margin-top: 2rem;
+            }
+
+
+            &__description {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                color: #81AFDD;
+            }
+        }
+    }
+
+
+    .FeaturesSectionItem__title__text {
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .FeaturesSectionItem__content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+
+        &__title {
+            flex: 1.5;
+        }
+    }
+
+    .FeaturesSectionItem__content__title__text {
+        line-height: 24px;
+    }
+
+    .FeaturesSectionItem__content__description{
+        flex: 1;
+    }
+
+
+}
