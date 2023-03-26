@@ -6,10 +6,22 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
 
-    const linkItems = ['Home', 'What is GPT?', 'Open AI', 'Case Studies', 'Library']
+    const linkItems = [
+        { title: 'Home', link: '#home' },
+        { title: 'What is GPT?', link: '#wgpt3' },
+        { title: 'Open AI', link: '#openAi' },
+        { title: 'Case Studies', link: '#caseStudy' },
+        { title: 'Library', link: '#library' },
+    ]
+
+    const newLinks = [
+        { title: 'Sign in', link: '#' },
+        { title: 'Sign up', link: '#' }
+    ]
 
     if (window.innerWidth < 700) {
-        linkItems.push('Sign in', 'Sign up')
+        linkItems.push({ title: 'Sign in', link: '#' }, { title: 'Sign up', link: '#' })
+
     }
 
     return (
@@ -18,9 +30,9 @@ const Navbar = () => {
                 <img src={logo} className='Navbar__links__logo' />
                 {linkItems.map((item) => {
                     return (
-                        <div className='Navbar__links__items'>
-                            {item}
-                        </div>
+                        <a className='Navbar__links__items' href={item.link}>
+                            {item.title}
+                        </a>
                     )
                 })}
             </div>
@@ -37,7 +49,7 @@ const Navbar = () => {
                         {linkItems.map((item) => {
                             return (
                                 <div className='Navbar__sign__menu__container__items'>
-                                    {item}
+                                    {item.title}
                                 </div>
                             )
                         })}

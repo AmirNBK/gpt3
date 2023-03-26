@@ -5,7 +5,7 @@ import people from '../../Assets/people.png'
 
 const Header = () => {
     return (
-        <div className='Header'>
+        <div className='Header' id='home'>
             <div className='Header__leftSide'>
                 <div className='Header__leftSide__title'> Let’s Build Something
                     amazing with GPT-3

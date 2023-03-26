@@ -12,7 +12,7 @@ const Feature = () => {
     ]
 
     return (
-        <div className='Feature'>
+        <div className='Feature' id='caseStudy'>
             <div className='Feature__leftSection'>
                 <h1 className='Feature__leftSection__description'> The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen. </h1>
                 <h1 className='Feature__leftSection__earlyAccess'> Request Early Access to Get Started </h1>

@@ -1,1 +1,62 @@
-/*# sourceMappingURL=Possibility.css.map */
+.Possibility {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0 4rem;
+}
+@media screen and (max-width: 1150px) {
+  .Possibility {
+    flex-direction: column;
+  }
+}
+.Possibility__image {
+  width: 100%;
+  margin-right: 20px;
+}
+.Possibility__image img {
+  width: 100%;
+}
+.Possibility__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Possibility__content h1, .Possibility__content p {
+  margin-top: 40px;
+}
+.Possibility__content__firstEarlyAccess {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #71E5FF;
+}
+.Possibility__content__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Possibility__content__description {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #81AFDD;
+}
+.Possibility__content__secondEarlyAccess {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FF8A71;
+}/*# sourceMappingURL=Possibility.css.map */

@@ -5,6 +5,14 @@
     padding: 0 4rem;
     margin: 6rem 0;
 
+    @media screen and (max-width : 1150px) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width : 550px) {
+        padding: 0 2rem;
+    }
+
     &__leftSection {
         margin-right: 3rem;
         flex: 1;

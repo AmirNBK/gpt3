@@ -4,8 +4,7 @@ import './WhatGPT3.css'
 
 const WhatGPT3 = () => {
     return (
-        <div className='WhatGPT3'>
-
+        <div className='WhatGPT3' id='wgpt3'>
             <div className='WhatGPT3__firstColumn'>
                 <div className='WhatGPT3__firstColumn__title'>
                     <div className='WhatGPT3__firstColumn__title__line'>  </div>
