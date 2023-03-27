@@ -21,7 +21,8 @@
   flex-direction: column;
   justify-content: center;
 }
-.Possibility__content h1, .Possibility__content p {
+.Possibility__content h1,
+.Possibility__content p {
   margin-top: 40px;
 }
 .Possibility__content__firstEarlyAccess {
@@ -44,6 +45,11 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+@media screen and (max-width: 550px) {
+  .Possibility__content__title {
+    font-size: 28px;
+  }
+}
 .Possibility__content__description {
   font-family: "Manrope";
   font-style: normal;
@@ -52,6 +58,11 @@
   line-height: 30px;
   color: #81AFDD;
 }
+@media screen and (max-width: 550px) {
+  .Possibility__content__description {
+    font-size: 14px;
+  }
+}
 .Possibility__content__secondEarlyAccess {
   font-family: "Manrope";
   font-style: normal;
@@ -59,4 +70,9 @@
   font-size: 16px;
   line-height: 30px;
   color: #FF8A71;
+}
+@media screen and (max-width: 550px) {
+  .Possibility__content__secondEarlyAccess {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=Possibility.css.map */

@@ -22,7 +22,8 @@
         flex-direction: column;
         justify-content: center;
 
-        h1 , p {
+        h1,
+        p {
             margin-top: 40px;
         }
 
@@ -48,6 +49,10 @@
             background-clip: text;
             text-fill-color: transparent;
 
+            @media screen and (max-width : 550px) {
+                font-size: 28px;
+            }
+
         }
 
         &__description {
@@ -57,6 +62,10 @@
             font-size: 16px;
             line-height: 30px;
             color: #81AFDD;
+
+            @media screen and (max-width : 550px) {
+                font-size: 14px;
+            }
         }
 
         &__secondEarlyAccess {
@@ -66,6 +75,10 @@
             font-size: 16px;
             line-height: 30px;
             color: #FF8A71;
+
+            @media screen and (max-width : 550px) {
+                font-size: 14px;
+            }
         }
     }
 }
