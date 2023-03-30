@@ -1,0 +1,32 @@
+.BlogComponent {
+  background: #042C54;
+  display: flex;
+  flex-direction: column;
+}
+.BlogComponent__upperSide__image {
+  width: 100%;
+}
+.BlogComponent__upperSide__date {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.BlogComponent__upperSide__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.BlogComponent__downSide__article {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=BlogComponent.css.map */
