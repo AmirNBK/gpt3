@@ -15,7 +15,36 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+@media screen and (max-width: 650px) {
+  .Blog__title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Blog__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+}
 .Blog__container {
   display: flex;
   flex-direction: row;
+  gap: 40px;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .Blog__container {
+    flex-direction: column;
+  }
+}
+.Blog__container__groupB {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .Blog__container__groupB {
+    grid-template-columns: none;
+  }
 }/*# sourceMappingURL=Blog.css.map */

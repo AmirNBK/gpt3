@@ -14,10 +14,37 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
+
+        @media screen and (max-width : 650px) {
+            font-size: 40px;
+            line-height: 60px;
+        }
+
+        @media screen and (max-width : 650px) {
+            font-size: 28px;
+            line-height: 45px;
+        }
     }
 
     &__container {
         display: flex;
         flex-direction: row;
+        gap: 40px;
+        margin-top: 2rem;
+
+
+        @media screen and (max-width : 1000px) {
+            flex-direction: column;
+        }
+
+        &__groupB {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+
+            @media screen and (max-width : 1000px) {
+                grid-template-columns: none;
+            }
+        }
     }
 }
