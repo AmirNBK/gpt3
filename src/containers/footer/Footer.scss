@@ -1,0 +1,51 @@
+.Footer {
+    background: #031B34;
+    padding-top: 5rem;
+
+    &__upperSection {
+
+        h1 {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 62px;
+            line-height: 75px;
+            text-align: center;
+            letter-spacing: -0.04em;
+
+            background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+        button {
+            font-family: 'Gilroy-Medium';
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+            display: flex;
+            margin: 0 auto;
+            background-color: transparent;
+            padding: 15px 25px;
+            border: 1px solid #FFFFFF;
+            margin-top: 50px;
+        }
+    }
+
+    &__bottomSection {
+        padding: 60px 0px;
+    }
+
+    &__bottomSection,
+    &__firstOptions,
+    &__secondOptions,
+    &__thirdOptions {
+        display: flex;
+        font-size: 8px;
+        justify-content: space-around;
+        color: #FFFFFF;
+        column-gap: 50px;
+    }
+}
