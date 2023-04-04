@@ -29,13 +29,35 @@
   margin-top: 50px;
 }
 .Footer__bottomSection {
-  padding: 60px 0px;
+  padding-bottom: 60px;
+  padding-top: 180px;
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+}
+.Footer__bottomSection__firstOptions, .Footer__bottomSection__secondOptions, .Footer__bottomSection__thirdOptions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.Footer__bottomSection__logoSection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.Footer__bottomSection__logoSection img {
+  width: 120px;
 }
 .Footer__bottomSection, .Footer__firstOptions, .Footer__secondOptions, .Footer__thirdOptions {
   display: flex;
   font-size: 8px;
   justify-content: space-around;
   color: #FFFFFF;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
+}
+.Footer__copyright {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0px;
 }/*# sourceMappingURL=Footer.css.map */

@@ -35,7 +35,29 @@
     }
 
     &__bottomSection {
-        padding: 60px 0px;
+        padding-bottom: 60px;
+        padding-top: 180px;
+        font-family: 'Gilroy-Medium';
+        font-size: 12px;
+
+
+        &__firstOptions,
+        &__secondOptions,
+        &__thirdOptions {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+        }
+
+        &__logoSection {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+
+            img {
+                width: 120px;
+            }
+        }
     }
 
     &__bottomSection,
@@ -46,6 +68,15 @@
         font-size: 8px;
         justify-content: space-around;
         color: #FFFFFF;
-        column-gap: 50px;
+    }
+
+    &__copyright {
+        font-family: 'Gilroy-Medium';
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 20px 0px;
+
     }
 }
