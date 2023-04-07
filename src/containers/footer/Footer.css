@@ -3,6 +3,7 @@
   padding-top: 5rem;
 }
 .Footer__upperSection h1 {
+  padding: 0px 40px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
@@ -16,6 +17,18 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+@media screen and (max-width: 750px) {
+  .Footer__upperSection h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Footer__upperSection h1 {
+    font-size: 33px;
+    line-height: 50px;
+  }
+}
 .Footer__upperSection button {
   font-family: "Gilroy-Medium";
   font-size: 18px;
@@ -28,9 +41,14 @@
   border: 1px solid #FFFFFF;
   margin-top: 50px;
 }
+@media screen and (max-width: 550px) {
+  .Footer__upperSection button {
+    font-size: 15px;
+    padding: 13px 18px;
+  }
+}
 .Footer__bottomSection {
-  padding-bottom: 60px;
-  padding-top: 180px;
+  padding: 180px 50px 60px;
   font-family: "Gilroy-Medium";
   font-size: 12px;
 }
@@ -52,6 +70,19 @@
   font-size: 8px;
   justify-content: space-around;
   color: #FFFFFF;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+@media screen and (max-width: 1150px) {
+  .Footer__bottomSection, .Footer__firstOptions, .Footer__secondOptions, .Footer__thirdOptions {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Footer__bottomSection, .Footer__firstOptions, .Footer__secondOptions, .Footer__thirdOptions {
+    row-gap: 60px;
+  }
 }
 .Footer__copyright {
   font-family: "Gilroy-Medium";
